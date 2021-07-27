@@ -1,0 +1,126 @@
+html, body {
+
+	
+
+	margin: 0 auto;
+
+	font-family: sans-serif;
+
+	font-size: 13px;
+
+	color: #333;
+
+	background-color:  #FDF8F5;
+
+	 background-image: url("../img/cyclist.jpg");
+
+	 }
+
+
+
+
+
+h1 {
+
+	font-size: 40px;
+
+	margin: 2px;
+
+	text-shadow: 2px 2px #bc5a45;
+
+	font-family: 'Lobster', cursive;
+
+}
+
+	
+
+button {
+
+	font-size: 20px;
+
+	font-weight: bold;
+
+	padding: 8px;
+
+	background-color:  #bc5a45; }
+
+	
+
+div#content {
+
+  width: 700px;
+
+  margin:0 auto;
+
+	padding: 20px;
+
+	background-color:   #E8CEBF; }
+
+	
+
+div#controls {
+
+	text-align: right; }
+
+	
+
+div#controls span {
+
+	font-weight: bold;
+
+	font-size: 20px;
+
+	color: #bc5a45; }
+
+	
+
+div#controls button {
+
+	margin-left: 20px; }
+
+	
+
+
+
+	
+
+div#gamespace {
+
+	margin: 20px;
+
+	padding: 10px;
+
+	height: 350px;
+
+	background-color: #bc5a45;
+
+	border: 2px solid #CCC; }
+
+img {
+
+	width: 120px;
+
+	height: 120px;
+
+}
+
+.size {
+
+	font-size: 20px;
+
+}
+
+
+
+.timerMsg {
+
+	color: #bc5a45;
+
+	font-size: 25px;
+
+	text-shadow: 2px 2px black;
+
+}
+
+
+
