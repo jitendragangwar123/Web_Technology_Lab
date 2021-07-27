@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.grid-container {
+  display: grid;
+  grid-gap: 5px;
+  background-color:rgb(207, 62, 62);
+  padding: 5px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
+
+
+.item4 {
+  grid-row: 2;
+  grid-column: 1 / span 4;
+}
+
+
+
+</style>
+
+<title>Grid Using CSS</title>
+</head>
+
+<body>
+
+<div class="grid-container">
+  <div class="grid-item item1">1</div>
+  <div class="grid-item item2">2</div>
+  <div class="grid-item item3">3</div>  
+  <div class="grid-item item4">4</div>
+  
+</div>
+
+</body>
+</html>
