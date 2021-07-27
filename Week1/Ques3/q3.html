@@ -1,0 +1,63 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Untitled Document</title>
+<style type="text/css">
+table.form1 {
+	border:none;
+	margin:auto;
+}
+.form1 td {
+	border:1px solid #000;
+	padding:10px;
+	vertical-align:top;
+}
+.form1 input { margin:0 10px 5px 0 }
+.label1 {
+	display:inline-block;
+	width:100px;
+	vertical-align:middle
+}
+.form1 h3 { margin:0 0 10px }
+.age h3 {
+	display:inline-block;
+	vertical-align:top;
+ *display:inline;/* ie6/7 hack*/
+	zoom:1.0;
+	width:100px;
+}
+.form1 textarea { width:250px }
+</style>
+</head>
+
+<body>
+<form action="">
+		<table class="form1">
+				<tr>
+						<td><label class="label1" for="first-name">First name:</label>
+								<input type="text" name="first-name" id="first-name">
+								<br>
+								<label class="label1" for="last-name">Last name:</label>
+								<input type="text" name="last name" id="last-name"></td>
+						<td><h3>Your gender:</h3>
+								<input type="radio" name="sex" value="male" id="male">
+								<label for="male"> male</label>
+								<br>
+								<input type="radio" name="sex" value="female" id="female">
+								<label for="female"> female</label></td>
+				</tr>
+				<tr>
+						<td class="age"><h3>Your age&emsp;&emsp;&emsp;:</h3>
+								<select name="age" multiple>
+										<option value="12.5" selected>10-15</option>
+										<option value="17.5">15-20</option>
+										<option value="22.5"selected>20-25</option>
+										<option value="29.5">25-30</option>
+								</select></td>
+						<td><textarea rows="5" cols="10" >Leave your comments here.</textarea></td>
+				</tr>
+		</table>
+</form>
+</body>
+</html>
